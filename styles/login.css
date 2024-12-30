@@ -60,6 +60,19 @@ input::placeholder {
     background-color: #af662c;
 }
 
+.forgot-password {
+    color: #ccc;
+   /*ext-decoration: none; /* Remove sublinhado */
+    font-size: 16px;
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Transição para hover */
+    opacity: 0.86;
+}
+
+.forgot-password:hover {
+    color: #af662c;
+}
+
 
 /* ajustes para dispositivos móveis */
 @media (max-width: 768px) {
